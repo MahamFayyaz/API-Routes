@@ -9,3 +9,5 @@ export function GET(response, content) {
     singledata.length==0?{result:"No result found"}:{result:singledata}
   );
 }
+
+

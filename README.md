@@ -7,3 +7,4 @@
 ## [] are use for dynamic routing.
 ## we use async await in APIs making beacuse whenever we make APIs, they always return a promise. So, to handle this, we have to make the function and method async.
 ## NextJS routing is file-based.
+## The cache: "no-store" directive is used in HTTP headers to instruct the browser not to store any version of the requested resource. It means that the browser should always make a request to the server and not rely on a cached copy, whether in memory or on disk.
