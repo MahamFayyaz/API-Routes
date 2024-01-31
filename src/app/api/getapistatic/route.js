@@ -22,9 +22,11 @@ export function GET(response) {
 export async function POST(request){                            //conditional response
   let dataload=await request.json()
   if(!dataload.name || !dataload.age ||!dataload.email){
-    return NextResponse.json({result:"Required Field Not Found",success:true})
+    return NextResponse.json({result:"Required Field Not Found",success:false})
   }else{
     return NextResponse.json({result:"New User Created",success:true})
   }
  
 }
+
+

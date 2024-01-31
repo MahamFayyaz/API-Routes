@@ -13,8 +13,9 @@ export default async function Users() {
       
         {
         comingdata.map((item) => (
-          <div>
-            <Link href={`/users/${item.id}`}>{item.name}</Link>
+          <div className="user-item">
+            <span><Link href={`/users/${item.id}`}>{item.name}</Link></span>
+            <span><Link href={`users/${item.id}/update`}>Edit</Link></span>
             </div>
         ))}
      
