@@ -63,9 +63,9 @@ export default function Post() {
         alert('Oops! There is some issue.');
       }
 
-      console.log(responseData);
+      // console.log(responseData);
     } catch (error) {
-      console.error('Error adding user:', error);
+      // console.error('Error adding user:', error);
       alert('Oops! There was an error.');
     }
   };

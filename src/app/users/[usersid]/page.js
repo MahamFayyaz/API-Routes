@@ -28,7 +28,7 @@ const getData = async (id) => {
 
     return res.json();
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     // You might want to throw the error here or return an error object
     throw error;
   }
@@ -43,7 +43,7 @@ export default async function UserDetail({ params }) {
       throw new Error("Invalid data format");
     }
 
-    console.log(comingdata);
+    // console.log(comingdata);
 
     return (
       <div>
@@ -60,7 +60,7 @@ export default async function UserDetail({ params }) {
     );
   } catch (error) {
     // Handle errors, you might want to display an error message on the page
-    console.error(error);
+    // console.error(error);
     return <div>Error loading data</div>;
   }
 }
